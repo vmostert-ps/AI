@@ -46,3 +46,18 @@ __pycache__/
 __blobstorage__
 __queuestorage__
 __azurite_db*__.json
+
+# Byte-compiled / compiled files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+.env/
+
+# Logs and system files
+*.log
+.DS_Store
+
+# Git-related files
+.gitignore

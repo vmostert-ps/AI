@@ -1,0 +1,2 @@
+[2025-02-24 13:57:53,151] - ERROR: A GraphQL error occured while updating the factsheet:
+[{'message': "unknown enum value 'oustanding' in field 'cApplicationAssessmentScore' of Fact Sheet of type Application", 'path': ['updateFactSheet'], 'extensions': {'entityType': 'FACT_SHEET', 'objectId': 'a679f04d-0efc-428b-a4a4-fb126718636f', 'objectPath': '/cApplicationAssessmentScore', 'errorType': 'MODEL_COMPLIANT'}}]

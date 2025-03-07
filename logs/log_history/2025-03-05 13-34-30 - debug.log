@@ -1,0 +1,104 @@
+[2025-03-05 13:34:30,610] - INFO: running locally
+[2025-03-05 13:34:30,611] - INFO: Loading environment variables from: /Users/I759962/Documents/repos/AI/./.env
+[2025-03-05 13:34:30,612] - INFO: Environment variables loaded successfully
+[2025-03-05 13:34:30,816] - DEBUG: Received bearer token from LeanIX
+[2025-03-05 13:34:30,816] - DEBUG: Bearer Token: eyJraWQiOiI0ODQxM2FmNzc3YTEyZmJlNTVlMmYxNzQ5ODg4ODQ0MyIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJkYjNkNTgyYi05NjVlLTRhYmItOGEyZi1kYTMzM2NiZTE1N2UuLTU1MjUwMjEyOUB0ZWNobmljYWx1c2Vycy5sZWFuaXgubG9jYWwiLCJwcmluY2lwYWwiOnsiaWQiOiIzMGRmZTdhYy03ZGRiLTQ4YTItYjY2Yy0yN2ZhNjEzZmM3NGIiLCJ1c2VybmFtZSI6ImRiM2Q1ODJiLTk2NWUtNGFiYi04YTJmLWRhMzMzY2JlMTU3ZS4tNTUyNTAyMTI5QHRlY2huaWNhbHVzZXJzLmxlYW5peC5sb2NhbCIsInJvbGUiOiJBQ0NPVU5UVVNFUiIsInN0YXR1cyI6IkFDVElWRSIsImFjY291bnQiOnsiaWQiOiI1YjA1NWMxYi0yZWEyLTQ1YmItOTMwNS00ODZkODMxZGU0YjUiLCJuYW1lIjoibGVhbml4In0sInBlcm1pc3Npb24iOnsiaWQiOiJkOWM0NDU2NC03MTBkLTRhM2QtOTU0Yi01MTAzNGJhNTgyZjgiLCJ3b3Jrc3BhY2VJZCI6ImRiM2Q1ODJiLTk2NWUtNGFiYi04YTJmLWRhMzMzY2JlMTU3ZSIsIndvcmtzcGFjZU5hbWUiOiJQcm9mU2VydkFJR292ZXJuYW5jZSIsInJvbGUiOiJBRE1JTiIsImN1c3RvbWVyUm9sZXMiOm51bGwsImFjY2Vzc0NvbnRyb2xFbnRpdGllcyI6bnVsbCwic3RhdHVzIjoiQUNUSVZFIiwiYXNVc2VyIjpudWxsfX0sImlzcyI6Imh0dHBzOi8vdXMtc3ZjLmxlYW5peC5uZXQiLCJqdGkiOiI5YTNiZTZiYS1iYjEyLTQyYTgtOWVjMy1kODQ2YzIzYTY4MGQiLCJleHAiOjE3NDEyMDMyNzAsImluc3RhbmNlVXJsIjoiaHR0cHM6Ly9kZW1vLXVzLTEubGVhbml4Lm5ldCIsInJlZ2lvbiI6ImVhc3R1cyJ9.BJzSSjKxW-Two2MR3UVK6GcQCbUYyLXRc0Hwfy7xhEyMbH4rbEOfPT-vMU92590dhQ9F2G9x7F6S5hEqPQTgW9W7gsrZlo-_kS4xMfAF1May7ni94z0SWWcChfIOjwqzDMYWQj6cafPI7dtP0dHEwnOuxj1oSTlNdEy4JaBkBkuJN8bThobCv7hfv36iQfKW1Dy08PyJvIs0mdk8RFHunxTSUSfhiFb4Ccim-aXDv2xU45EHjPemIDsqb05fi8dQdv24v_Kz0nk6bZGsOBfbgy6fx79Wa6qPF_UVNKNSTSgCiFRFTUajUAcStsMxm4ZaSu1gy02lhlAo0BEPIDL96A
+[2025-03-05 13:34:30,816] - DEBUG: Workspace ID: db3d582b-965e-4abb-8a2f-da333cbe157e
+[2025-03-05 13:34:30,816] - DEBUG: Workspace Name: ProfServAIGovernance
+[2025-03-05 13:34:30,816] - DEBUG: Technical User ID: 30dfe7ac-7ddb-48a2-b66c-27fa613fc74b
+[2025-03-05 13:34:30,817] - DEBUG: Technical User Email: db3d582b-965e-4abb-8a2f-da333cbe157e.-552502129@technicalusers.leanix.local
+[2025-03-05 13:34:30,817] - DEBUG: Technical User MTM Role: ACCOUNTUSER
+[2025-03-05 13:34:30,817] - DEBUG: Technical User Workspace Role: ADMIN
+[2025-03-05 13:34:30,817] - DEBUG: Headers: {'Authorization': 'Bearer eyJraWQiOiI0ODQxM2FmNzc3YTEyZmJlNTVlMmYxNzQ5ODg4ODQ0MyIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJkYjNkNTgyYi05NjVlLTRhYmItOGEyZi1kYTMzM2NiZTE1N2UuLTU1MjUwMjEyOUB0ZWNobmljYWx1c2Vycy5sZWFuaXgubG9jYWwiLCJwcmluY2lwYWwiOnsiaWQiOiIzMGRmZTdhYy03ZGRiLTQ4YTItYjY2Yy0yN2ZhNjEzZmM3NGIiLCJ1c2VybmFtZSI6ImRiM2Q1ODJiLTk2NWUtNGFiYi04YTJmLWRhMzMzY2JlMTU3ZS4tNTUyNTAyMTI5QHRlY2huaWNhbHVzZXJzLmxlYW5peC5sb2NhbCIsInJvbGUiOiJBQ0NPVU5UVVNFUiIsInN0YXR1cyI6IkFDVElWRSIsImFjY291bnQiOnsiaWQiOiI1YjA1NWMxYi0yZWEyLTQ1YmItOTMwNS00ODZkODMxZGU0YjUiLCJuYW1lIjoibGVhbml4In0sInBlcm1pc3Npb24iOnsiaWQiOiJkOWM0NDU2NC03MTBkLTRhM2QtOTU0Yi01MTAzNGJhNTgyZjgiLCJ3b3Jrc3BhY2VJZCI6ImRiM2Q1ODJiLTk2NWUtNGFiYi04YTJmLWRhMzMzY2JlMTU3ZSIsIndvcmtzcGFjZU5hbWUiOiJQcm9mU2VydkFJR292ZXJuYW5jZSIsInJvbGUiOiJBRE1JTiIsImN1c3RvbWVyUm9sZXMiOm51bGwsImFjY2Vzc0NvbnRyb2xFbnRpdGllcyI6bnVsbCwic3RhdHVzIjoiQUNUSVZFIiwiYXNVc2VyIjpudWxsfX0sImlzcyI6Imh0dHBzOi8vdXMtc3ZjLmxlYW5peC5uZXQiLCJqdGkiOiI5YTNiZTZiYS1iYjEyLTQyYTgtOWVjMy1kODQ2YzIzYTY4MGQiLCJleHAiOjE3NDEyMDMyNzAsImluc3RhbmNlVXJsIjoiaHR0cHM6Ly9kZW1vLXVzLTEubGVhbml4Lm5ldCIsInJlZ2lvbiI6ImVhc3R1cyJ9.BJzSSjKxW-Two2MR3UVK6GcQCbUYyLXRc0Hwfy7xhEyMbH4rbEOfPT-vMU92590dhQ9F2G9x7F6S5hEqPQTgW9W7gsrZlo-_kS4xMfAF1May7ni94z0SWWcChfIOjwqzDMYWQj6cafPI7dtP0dHEwnOuxj1oSTlNdEy4JaBkBkuJN8bThobCv7hfv36iQfKW1Dy08PyJvIs0mdk8RFHunxTSUSfhiFb4Ccim-aXDv2xU45EHjPemIDsqb05fi8dQdv24v_Kz0nk6bZGsOBfbgy6fx79Wa6qPF_UVNKNSTSgCiFRFTUajUAcStsMxm4ZaSu1gy02lhlAo0BEPIDL96A', 'Content-type': 'application/json', 'Accept': 'application/json'}
+[2025-03-05 13:34:30,817] - INFO: request_url
+[2025-03-05 13:34:30,817] - INFO: https://demo-us-1.leanix.net/services/integration-api/v1/configurations?connectorId=survey-config&connectorType=survey-config&connectorVersion=1.0.0&processingDirection=inbound&processingMode=partial
+[2025-03-05 13:34:30,818] - DEBUG: Using stored bearer token in headers
+[2025-03-05 13:34:30,998] - INFO: [{'connectorType': 'survey-config', 'connectorId': 'survey-config', 'connectorVersion': '1.0.0', 'processingDirection': 'inbound', 'processingMode': 'partial', 'customFields': {'questions': [{'id': 'f8ca481a-7272-280d-b390-1f1267f132b2', 'text': 'What is the Downstream Task Adoption', 'type': 'radio', 'options': [{'id': 'fine-tuning-option', 'text': 'Fine-tuning', 'score': 6, 'fieldKey': 'FineTuning'}, {'id': 'embeddings-option', 'text': 'Embeddings', 'score': 6, 'fieldKey': 'Embeddings'}, {'id': 'external-data-option', 'text': 'External Data Integration', 'score': 6, 'fieldKey': 'ExternalData'}, {'id': 'prompt-engineering-option', 'text': 'Prompt Engineering', 'score': 6, 'fieldKey': 'PromptEngineering'}, {'id': 'other-methods-option', 'text': 'Other Methods', 'score': 6, 'fieldKey': 'Other'}], 'fieldName': 'cDownstreamTaskAdoption', 'isIntegerQuestion': False}, {'id': 'f71185e2-58b1-cf45-85e9-87f19ca1e713', 'text': 'What is the current evaluation status', 'type': 'radio', 'options': [{'id': 'approved-option', 'text': 'Approved for Production', 'score': 10, 'fieldKey': 'Approved'}, {'id': 'refactoring-option', 'text': 'Needs Refactoring', 'score': 5, 'fieldKey': 'Refactoring'}, {'id': 'deferred-option', 'text': 'Deferred for Review', 'score': 0, 'fieldKey': 'Deferred'}], 'fieldName': 'cEvaluation', 'isIntegerQuestion': False}, {'id': '6c7294f3-77cb-6e68-ac59-ed16d84065f3', 'text': 'What is the model capacity (in tokens)', 'type': 'number', 'options': [{'id': 'less-than-10000', 'text': 'Less than 10000', 'score': 1, 'fieldKey': 'lessThan10000'}, {'id': 'between-10000-20000', 'text': 'Between 10000-20000', 'score': 2, 'fieldKey': 'between10000and200000'}, {'id': 'more-than-20000', 'text': 'More than 20000', 'score': 3, 'fieldKey': 'above200000'}], 'fieldName': 'cModelCapacity', 'isIntegerQuestion': True}, {'id': 'ce145f6e-8894-050d-5f2a-b35588cd8967', 'text': 'What is the domain relevance', 'type': 'radio', 'options': [{'id': 'it-domain-option', 'text': 'IT Domain Specific Model', 'score': 2, 'fieldKey': 'ITDomainModel'}, {'id': 'general-domain-option', 'text': 'General Domain Model', 'score': 4, 'fieldKey': 'GeneralDomainModel'}, {'id': 'hybrid-option', 'text': 'Hybrid Approach', 'score': 6, 'fieldKey': 'Hybrid'}, {'id': 'fine-tuned-option', 'text': 'Fine-tuned Model', 'score': 8, 'fieldKey': 'FineTuned'}, {'id': 'custom-trained-option', 'text': 'Custom Trained Model', 'score': 10, 'fieldKey': 'CustomTrained'}], 'fieldName': 'cDomainRelevance', 'isIntegerQuestion': False}, {'id': '8218af3e-e0a4-43e6-ca73-cb49c2db3823', 'text': 'What is the LLM customizability level', 'type': 'radio', 'options': [{'id': 'small-scale-option', 'text': 'Small Scale', 'score': 1, 'fieldKey': 'S'}, {'id': 'medium-scale-option', 'text': 'Medium Scale', 'score': 4, 'fieldKey': 'M'}, {'id': 'large-scale-option', 'text': 'Large Scale', 'score': 7, 'fieldKey': 'L'}, {'id': 'xl-scale-option', 'text': 'Extra Large Scale', 'score': 10, 'fieldKey': 'XL'}], 'fieldName': 'cLLMCustomizability', 'isIntegerQuestion': False}, {'id': 'd22e3e3c-da70-c953-4804-dc7c49868abc', 'text': 'What is the LLM interpretability level', 'type': 'radio', 'options': [{'id': 'small-scale-option', 'text': 'Small Scale', 'score': 5, 'fieldKey': 'S'}, {'id': 'medium-scale-option', 'text': 'Medium Scale', 'score': 10, 'fieldKey': 'M'}, {'id': 'large-scale-option', 'text': 'Large Scale', 'score': 15, 'fieldKey': 'L'}, {'id': 'xl-scale-option', 'text': 'Extra Large Scale', 'score': 20, 'fieldKey': 'XL'}], 'fieldName': 'cLLMInterpretability', 'isIntegerQuestion': False}, {'id': '95b262d6-9ad7-1cf0-bd4c-b20794642896', 'text': 'What is the performance level', 'type': 'radio', 'options': [{'id': 'small-scale-option', 'text': 'Small Scale', 'score': 1, 'fieldKey': 'S'}, {'id': 'medium-scale-option', 'text': 'Medium Scale', 'score': 4, 'fieldKey': 'M'}, {'id': 'large-scale-option', 'text': 'Large Scale', 'score': 7, 'fieldKey': 'L'}, {'id': 'xl-scale-option', 'text': 'Extra Large Scale', 'score': 10, 'fieldKey': 'XL'}], 'fieldName': 'cPerformance', 'isIntegerQuestion': False}, {'id': 'd0871327-c363-0e41-bda9-06206bb13ab7', 'text': 'What is the LLM integration ease level', 'type': 'radio', 'options': [{'id': 'small-scale-option', 'text': 'Small Scale', 'score': 1, 'fieldKey': 'S'}, {'id': 'medium-scale-option', 'text': 'Medium Scale', 'score': 4, 'fieldKey': 'M'}, {'id': 'large-scale-option', 'text': 'Large Scale', 'score': 7, 'fieldKey': 'L'}, {'id': 'xl-scale-option', 'text': 'Extra Large Scale', 'score': 10, 'fieldKey': 'XL'}], 'fieldName': 'cLLMIntegrationEase', 'isIntegerQuestion': False}, {'id': '12e1855b-437d-5967-2bd2-1907d6e4ac0f', 'text': 'What is the support level', 'type': 'radio', 'options': [{'id': 'end-user-option', 'text': 'End User Support Only', 'score': 0, 'fieldKey': 'EndUser'}, {'id': 'technical-option', 'text': 'Technical Support', 'score': 2, 'fieldKey': 'Technical'}, {'id': 'development-option', 'text': 'Development Team Support', 'score': 4, 'fieldKey': 'DevelopmentSupport'}, {'id': 'management-option', 'text': 'Management Level Support', 'score': 6, 'fieldKey': 'ManagementSupport'}, {'id': 'training-option', 'text': 'Training & Documentation', 'score': 8, 'fieldKey': 'Training'}, {'id': 'vendor-option', 'text': 'Vendor Support', 'score': 10, 'fieldKey': 'Vendor'}], 'fieldName': 'cLLMSupportLevel', 'isIntegerQuestion': False}]}, 'metadata': {'lastUsedAt': '2025-03-04T20:47:38.3101Z', 'isDefaultConfiguration': False}}]
+[2025-03-05 13:34:31,001] - INFO: Loaded Survey Questions:
+[2025-03-05 13:34:31,001] - INFO: 
+Question ID: f8ca481a-7272-280d-b390-1f1267f132b2
+[2025-03-05 13:34:31,001] - INFO: Field Name: cDownstreamTaskAdoption
+[2025-03-05 13:34:31,002] - INFO: Is Integer Question: False
+[2025-03-05 13:34:31,002] - INFO: Answers:
+[2025-03-05 13:34:31,002] - INFO:   - Fine-tuning: score=6, field_key=FineTuning
+[2025-03-05 13:34:31,002] - INFO:   - Embeddings: score=6, field_key=Embeddings
+[2025-03-05 13:34:31,003] - INFO:   - External Data Integration: score=6, field_key=ExternalData
+[2025-03-05 13:34:31,003] - INFO:   - Prompt Engineering: score=6, field_key=PromptEngineering
+[2025-03-05 13:34:31,003] - INFO:   - Other Methods: score=6, field_key=Other
+[2025-03-05 13:34:31,003] - INFO: 
+Question ID: f71185e2-58b1-cf45-85e9-87f19ca1e713
+[2025-03-05 13:34:31,004] - INFO: Field Name: cEvaluation
+[2025-03-05 13:34:31,004] - INFO: Is Integer Question: False
+[2025-03-05 13:34:31,004] - INFO: Answers:
+[2025-03-05 13:34:31,004] - INFO:   - Approved for Production: score=10, field_key=Approved
+[2025-03-05 13:34:31,004] - INFO:   - Needs Refactoring: score=5, field_key=Refactoring
+[2025-03-05 13:34:31,004] - INFO:   - Deferred for Review: score=0, field_key=Deferred
+[2025-03-05 13:34:31,004] - INFO: 
+Question ID: 6c7294f3-77cb-6e68-ac59-ed16d84065f3
+[2025-03-05 13:34:31,004] - INFO: Field Name: cModelCapacity
+[2025-03-05 13:34:31,005] - INFO: Is Integer Question: True
+[2025-03-05 13:34:31,005] - INFO: Answers:
+[2025-03-05 13:34:31,005] - INFO:   - Less than 10000: score=1, field_key=lessThan10000
+[2025-03-05 13:34:31,005] - INFO:   - Between 10000-20000: score=2, field_key=between10000and200000
+[2025-03-05 13:34:31,005] - INFO:   - More than 20000: score=3, field_key=above200000
+[2025-03-05 13:34:31,005] - INFO: 
+Question ID: ce145f6e-8894-050d-5f2a-b35588cd8967
+[2025-03-05 13:34:31,005] - INFO: Field Name: cDomainRelevance
+[2025-03-05 13:34:31,005] - INFO: Is Integer Question: False
+[2025-03-05 13:34:31,005] - INFO: Answers:
+[2025-03-05 13:34:31,006] - INFO:   - IT Domain Specific Model: score=2, field_key=ITDomainModel
+[2025-03-05 13:34:31,006] - INFO:   - General Domain Model: score=4, field_key=GeneralDomainModel
+[2025-03-05 13:34:31,006] - INFO:   - Hybrid Approach: score=6, field_key=Hybrid
+[2025-03-05 13:34:31,006] - INFO:   - Fine-tuned Model: score=8, field_key=FineTuned
+[2025-03-05 13:34:31,006] - INFO:   - Custom Trained Model: score=10, field_key=CustomTrained
+[2025-03-05 13:34:31,006] - INFO: 
+Question ID: 8218af3e-e0a4-43e6-ca73-cb49c2db3823
+[2025-03-05 13:34:31,007] - INFO: Field Name: cLLMCustomizability
+[2025-03-05 13:34:31,007] - INFO: Is Integer Question: False
+[2025-03-05 13:34:31,007] - INFO: Answers:
+[2025-03-05 13:34:31,007] - INFO:   - Small Scale: score=1, field_key=S
+[2025-03-05 13:34:31,007] - INFO:   - Medium Scale: score=4, field_key=M
+[2025-03-05 13:34:31,007] - INFO:   - Large Scale: score=7, field_key=L
+[2025-03-05 13:34:31,007] - INFO:   - Extra Large Scale: score=10, field_key=XL
+[2025-03-05 13:34:31,007] - INFO: 
+Question ID: d22e3e3c-da70-c953-4804-dc7c49868abc
+[2025-03-05 13:34:31,007] - INFO: Field Name: cLLMInterpretability
+[2025-03-05 13:34:31,008] - INFO: Is Integer Question: False
+[2025-03-05 13:34:31,008] - INFO: Answers:
+[2025-03-05 13:34:31,008] - INFO:   - Small Scale: score=5, field_key=S
+[2025-03-05 13:34:31,008] - INFO:   - Medium Scale: score=10, field_key=M
+[2025-03-05 13:34:31,008] - INFO:   - Large Scale: score=15, field_key=L
+[2025-03-05 13:34:31,008] - INFO:   - Extra Large Scale: score=20, field_key=XL
+[2025-03-05 13:34:31,008] - INFO: 
+Question ID: 95b262d6-9ad7-1cf0-bd4c-b20794642896
+[2025-03-05 13:34:31,008] - INFO: Field Name: cPerformance
+[2025-03-05 13:34:31,008] - INFO: Is Integer Question: False
+[2025-03-05 13:34:31,008] - INFO: Answers:
+[2025-03-05 13:34:31,009] - INFO:   - Small Scale: score=1, field_key=S
+[2025-03-05 13:34:31,009] - INFO:   - Medium Scale: score=4, field_key=M
+[2025-03-05 13:34:31,009] - INFO:   - Large Scale: score=7, field_key=L
+[2025-03-05 13:34:31,009] - INFO:   - Extra Large Scale: score=10, field_key=XL
+[2025-03-05 13:34:31,009] - INFO: 
+Question ID: d0871327-c363-0e41-bda9-06206bb13ab7
+[2025-03-05 13:34:31,009] - INFO: Field Name: cLLMIntegrationEase
+[2025-03-05 13:34:31,009] - INFO: Is Integer Question: False
+[2025-03-05 13:34:31,010] - INFO: Answers:
+[2025-03-05 13:34:31,010] - INFO:   - Small Scale: score=1, field_key=S
+[2025-03-05 13:34:31,010] - INFO:   - Medium Scale: score=4, field_key=M
+[2025-03-05 13:34:31,010] - INFO:   - Large Scale: score=7, field_key=L
+[2025-03-05 13:34:31,010] - INFO:   - Extra Large Scale: score=10, field_key=XL
+[2025-03-05 13:34:31,010] - INFO: 
+Question ID: 12e1855b-437d-5967-2bd2-1907d6e4ac0f
+[2025-03-05 13:34:31,010] - INFO: Field Name: cLLMSupportLevel
+[2025-03-05 13:34:31,010] - INFO: Is Integer Question: False
+[2025-03-05 13:34:31,010] - INFO: Answers:
+[2025-03-05 13:34:31,010] - INFO:   - End User Support Only: score=0, field_key=EndUser
+[2025-03-05 13:34:31,010] - INFO:   - Technical Support: score=2, field_key=Technical
+[2025-03-05 13:34:31,011] - INFO:   - Development Team Support: score=4, field_key=DevelopmentSupport
+[2025-03-05 13:34:31,011] - INFO:   - Management Level Support: score=6, field_key=ManagementSupport
+[2025-03-05 13:34:31,011] - INFO:   - Training & Documentation: score=8, field_key=Training
+[2025-03-05 13:34:31,011] - INFO:   - Vendor Support: score=10, field_key=Vendor
+[2025-03-05 13:34:31,011] - ERROR: Unknown question ID: 0bf0f577-b25d-0528-236e-f654d3d4e6b5
+[2025-03-05 13:34:31,011] - DEBUG: Using stored bearer token in headers
+[2025-03-05 13:34:31,295] - ERROR: Invalid integer value for question 6c7294f3-77cb-6e68-ac59-ed16d84065f3
+[2025-03-05 13:34:31,295] - DEBUG: Using stored bearer token in headers

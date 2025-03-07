@@ -1,0 +1,343 @@
+{
+    "connectorId": "survey-config",
+    "connectorType": "survey-config",
+    "connectorVersion": "1.0.0",
+    "customFields": {
+        "questions": [
+            {
+                "id": "f8ca481a-7272-280d-b390-1f1267f132b2",
+                "text": "What is the Downstream Task Adoption",
+                "type": "radio",
+                "options": [
+                    {
+                        "id": "fine-tuning-option",
+                        "text": "Fine-tuning",
+                        "score": 6,
+                        "fieldKey": "FineTuning"
+                    },
+                    {
+                        "id": "embeddings-option",
+                        "text": "Embeddings",
+                        "score": 6,
+                        "fieldKey": "Embeddings"
+                    },
+                    {
+                        "id": "external-data-option",
+                        "text": "External Data Integration",
+                        "score": 6,
+                        "fieldKey": "ExternalData"
+                    },
+                    {
+                        "id": "prompt-engineering-option",
+                        "text": "Prompt Engineering",
+                        "score": 6,
+                        "fieldKey": "PromptEngineering"
+                    },
+                    {
+                        "id": "other-methods-option",
+                        "text": "Other Methods",
+                        "score": 6,
+                        "fieldKey": "Other"
+                    }
+                ],
+                "fieldName": "cDownstreamTaskAdoption",
+                "isIntegerQuestion": false
+            },
+            {
+                "id": "f71185e2-58b1-cf45-85e9-87f19ca1e713",
+                "text": "What is the current evaluation status",
+                "type": "radio",
+                "options": [
+                    {
+                        "id": "approved-option",
+                        "text": "Approved for Production",
+                        "score": 10,
+                        "fieldKey": "Approved"
+                    },
+                    {
+                        "id": "refactoring-option",
+                        "text": "Needs Refactoring",
+                        "score": 5,
+                        "fieldKey": "Refactoring"
+                    },
+                    {
+                        "id": "deferred-option",
+                        "text": "Deferred for Review",
+                        "score": 0,
+                        "fieldKey": "Deferred"
+                    }
+                ],
+                "fieldName": "cEvaluation",
+                "isIntegerQuestion": false
+            },
+            {
+                "id": "6c7294f3-77cb-6e68-ac59-ed16d84065f3",
+                "text": "What is the model capacity (in tokens)",
+                "type": "number",
+                "options": [
+                    {
+                        "id": "less-than-10000",
+                        "text": "Less than 10000",
+                        "score": 1,
+                        "fieldKey": "lessThan10000"
+                    },
+                    {
+                        "id": "between-10000-20000",
+                        "text": "Between 10000-20000",
+                        "score": 2,
+                        "fieldKey": "between10000and200000"
+                    },
+                    {
+                        "id": "more-than-20000",
+                        "text": "More than 20000",
+                        "score": 3,
+                        "fieldKey": "above200000"
+                    }
+                ],
+                "fieldName": "cModelCapacity",
+                "isIntegerQuestion": true
+            },
+            {
+                "id": "ce145f6e-8894-050d-5f2a-b35588cd8967",
+                "text": "What is the domain relevance",
+                "type": "radio",
+                "options": [
+                    {
+                        "id": "it-domain-option",
+                        "text": "IT Domain Specific Model",
+                        "score": 2,
+                        "fieldKey": "ITDomainModel"
+                    },
+                    {
+                        "id": "general-domain-option",
+                        "text": "General Domain Model",
+                        "score": 4,
+                        "fieldKey": "GeneralDomainModel"
+                    },
+                    {
+                        "id": "hybrid-option",
+                        "text": "Hybrid Approach",
+                        "score": 6,
+                        "fieldKey": "Hybrid"
+                    },
+                    {
+                        "id": "fine-tuned-option",
+                        "text": "Fine-tuned Model",
+                        "score": 8,
+                        "fieldKey": "FineTuned"
+                    },
+                    {
+                        "id": "custom-trained-option",
+                        "text": "Custom Trained Model",
+                        "score": 10,
+                        "fieldKey": "CustomTrained"
+                    }
+                ],
+                "fieldName": "cDomainRelevance",
+                "isIntegerQuestion": false
+            },
+            {
+                "id": "8218af3e-e0a4-43e6-ca73-cb49c2db3823",
+                "text": "What is the LLM customizability level",
+                "type": "radio",
+                "options": [
+                    {
+                        "id": "small-scale-option",
+                        "text": "Small Scale",
+                        "score": 1,
+                        "fieldKey": "S"
+                    },
+                    {
+                        "id": "medium-scale-option",
+                        "text": "Medium Scale",
+                        "score": 4,
+                        "fieldKey": "M"
+                    },
+                    {
+                        "id": "large-scale-option",
+                        "text": "Large Scale",
+                        "score": 7,
+                        "fieldKey": "L"
+                    },
+                    {
+                        "id": "xl-scale-option",
+                        "text": "Extra Large Scale",
+                        "score": 10,
+                        "fieldKey": "XL"
+                    }
+                ],
+                "fieldName": "cLLMCustomizability",
+                "isIntegerQuestion": false
+            },
+            {
+                "id": "d22e3e3c-da70-c953-4804-dc7c49868abc",
+                "text": "What is the LLM interpretability level",
+                "type": "radio",
+                "options": [
+                    {
+                        "id": "small-scale-option",
+                        "text": "Small Scale",
+                        "score": 5,
+                        "fieldKey": "S"
+                    },
+                    {
+                        "id": "medium-scale-option",
+                        "text": "Medium Scale",
+                        "score": 10,
+                        "fieldKey": "M"
+                    },
+                    {
+                        "id": "large-scale-option",
+                        "text": "Large Scale",
+                        "score": 15,
+                        "fieldKey": "L"
+                    },
+                    {
+                        "id": "xl-scale-option",
+                        "text": "Extra Large Scale",
+                        "score": 20,
+                        "fieldKey": "XL"
+                    }
+                ],
+                "fieldName": "cLLMInterpretability",
+                "isIntegerQuestion": false
+            },
+            {
+                "id": "95b262d6-9ad7-1cf0-bd4c-b20794642896",
+                "text": "What is the performance level",
+                "type": "radio",
+                "options": [
+                    {
+                        "id": "small-scale-option",
+                        "text": "Small Scale",
+                        "score": 1,
+                        "fieldKey": "S"
+                    },
+                    {
+                        "id": "medium-scale-option",
+                        "text": "Medium Scale",
+                        "score": 4,
+                        "fieldKey": "M"
+                    },
+                    {
+                        "id": "large-scale-option",
+                        "text": "Large Scale",
+                        "score": 7,
+                        "fieldKey": "L"
+                    },
+                    {
+                        "id": "xl-scale-option",
+                        "text": "Extra Large Scale",
+                        "score": 10,
+                        "fieldKey": "XL"
+                    }
+                ],
+                "fieldName": "cPerformance",
+                "isIntegerQuestion": false
+            },
+            {
+                "id": "d0871327-c363-0e41-bda9-06206bb13ab7",
+                "text": "What is the LLM integration ease level",
+                "type": "radio",
+                "options": [
+                    {
+                        "id": "small-scale-option",
+                        "text": "Small Scale",
+                        "score": 1,
+                        "fieldKey": "S"
+                    },
+                    {
+                        "id": "medium-scale-option",
+                        "text": "Medium Scale",
+                        "score": 4,
+                        "fieldKey": "M"
+                    },
+                    {
+                        "id": "large-scale-option",
+                        "text": "Large Scale",
+                        "score": 7,
+                        "fieldKey": "L"
+                    },
+                    {
+                        "id": "xl-scale-option",
+                        "text": "Extra Large Scale",
+                        "score": 10,
+                        "fieldKey": "XL"
+                    }
+                ],
+                "fieldName": "cLLMIntegrationEase",
+                "isIntegerQuestion": false
+            },
+            {
+                "id": "12e1855b-437d-5967-2bd2-1907d6e4ac0f",
+                "text": "What is the support level",
+                "type": "radio",
+                "options": [
+                    {
+                        "id": "end-user-option",
+                        "text": "End User Support Only",
+                        "score": 0,
+                        "fieldKey": "EndUser"
+                    },
+                    {
+                        "id": "technical-option",
+                        "text": "Technical Support",
+                        "score": 2,
+                        "fieldKey": "Technical"
+                    },
+                    {
+                        "id": "development-option",
+                        "text": "Development Team Support",
+                        "score": 4,
+                        "fieldKey": "DevelopmentSupport"
+                    },
+                    {
+                        "id": "management-option",
+                        "text": "Management Level Support",
+                        "score": 6,
+                        "fieldKey": "ManagementSupport"
+                    },
+                    {
+                        "id": "training-option",
+                        "text": "Training & Documentation",
+                        "score": 8,
+                        "fieldKey": "Training"
+                    },
+                    {
+                        "id": "vendor-option",
+                        "text": "Vendor Support",
+                        "score": 10,
+                        "fieldKey": "Vendor"
+                    }
+                ],
+                "fieldName": "cLLMSupportLevel",
+                "isIntegerQuestion": false
+            }
+        ],
+        "fieldKeyMappings": {
+            "Fine-tuning": "FineTuning",
+            "Embeddings": "Embeddings",
+            "External Data Integration": "ExternalDataIntegration",
+            "Prompt Engineering": "PromptEngineering",
+            "Other Methods": "OtherMethods",
+            "Approved for Production": "ApprovedForProduction",
+            "Needs Refactoring": "NeedsRefactoring",
+            "Deferred for Review": "DeferredForReview",
+            "IT Domain Specific Model": "ITDomainSpecific",
+            "General Domain Model": "GeneralDomain",
+            "Hybrid Approach": "HybridApproach",
+            "Fine-tuned Model": "FineTunedModel",
+            "Custom Trained Model": "CustomTrained",
+            "Small Scale": "SmallScale",
+            "Medium Scale": "MediumScale",
+            "Large Scale": "LargeScale",
+            "Extra Large Scale": "ExtraLargeScale",
+            "End User Support Only": "EndUserSupport",
+            "Technical Support": "TechnicalSupport",
+            "Development Team Support": "DevelopmentSupport",
+            "Management Level Support": "ManagementSupport",
+            "Training & Documentation": "TrainingSupport",
+            "Vendor Support": "VendorSupport"
+        }
+    }
+} 
